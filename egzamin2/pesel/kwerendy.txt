@@ -1,0 +1,4 @@
+1.Select * From pogoda, miasta where miasta.id = pogoda.miasta_id and miasta.id = 2 ORDER by pogoda.data_prognozy desc;
+2.select id, temperatura_dzien from pogoda where cisnienie < 1000;
+3.select data_prognozy, opady, nazwa from pogoda, miasta where pogoda.miasta_id = miasta.id and pogoda.temperatura_dzien > 20;
+4.delete from pogoda where id = 8;
